@@ -1,0 +1,91 @@
+/* banner start here */
+#banner{
+    background-color: #FDF9FF;
+}
+#banner h1{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+#banner p{
+    margin-bottom: 27px;
+}
+.leftbanner{
+    margin-top: 127px;
+}
+#banner button{
+    cursor: pointer;
+    border: none;
+    padding: 8px 29px;
+    color: #fff;
+    background: #2996f1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+#banner button:hover{
+    background: #047bdd;
+    color: #fff;
+}
+@media(max-width:992px){
+    .imgcustomize{
+        margin-top: 50px;
+    }
+}
+/* banner end here */
+/* about start here */
+#about h1{
+    font-size: 45px;
+}
+#about button{
+    cursor: pointer;
+    border: none;
+    padding: 8px 29px;
+    color: #fff;
+    background: #2996f1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+#about button:hover{
+    background: #047bdd;
+    color: #fff;
+}
+/* about end here */
+/* offer start here */
+.card{
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.card:hover{
+    background: #8594FE;
+    color:#000;
+}
+/* offer end here */
+/* tropy start here */
+#tropy{
+    background-color: #8293FF;
+}
+/* tropy end here */
+/* project start here */
+#project img{
+    background: rgb(211, 90, 9);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    cursor: pointer;
+}
+#project img:hover{
+    opacity: 0.6;
+}
+/* project end here */
